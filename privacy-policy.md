@@ -95,4 +95,4 @@ We may update this Privacy Policy from time to time. Updates will be posted at t
 
 For privacy questions or deletion requests, contact:
 
-YOUR_EMAIL_HERE
+info@emudev.de
