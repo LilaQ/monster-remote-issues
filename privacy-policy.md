@@ -49,7 +49,7 @@ An external MCP-compatible AI client that you choose to connect is governed by t
 
 Cloud-synced training summaries and related account records are generally retained for up to 1,095 days while the service is in use, unless a longer period is legally required. Short-lived linking codes and authentication nonces expire automatically. Operational and entitlement records may be kept as needed for security, billing verification, fraud prevention, and legal compliance.
 
-On-device information, including the MCP access key in the iOS Keychain, remains until you remove the app data or use the relevant iOS controls. You may request deletion of cloud-linked data by contacting us.
+On-device information, including the MCP access key in the iOS Keychain, remains until you remove the app data or use the relevant iOS controls. You can permanently delete your Monster Remote cloud account and its linked data inside Training Intelligence settings. You may also contact us for help with deletion.
 
 ## Data Sharing
 
@@ -64,7 +64,7 @@ We may disclose information when required by law or when necessary to protect us
 
 ## Your Choices
 
-You can use core local and rule-based features without enabling Apple Health, AI Coach, Alexa, or an external MCP client. You can revoke Health permissions, stop using speech input or spoken answers, disconnect external clients, and request deletion of cloud-linked data.
+You can use core local and rule-based features without enabling Apple Health, AI Coach, Alexa, or an external MCP client. You can revoke Health permissions, stop using speech input or spoken answers, disconnect external clients, and delete your cloud account in the app.
 
 ## Security
 
