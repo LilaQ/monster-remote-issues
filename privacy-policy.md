@@ -1,6 +1,6 @@
 # Privacy Policy for Monster Remote
 
-Effective date: 2026-08-01
+Effective date: 2026-08-12
 
 Monster Remote is an unofficial companion app and Alexa skill for supported Gym Monster machines. Monster Remote is not affiliated with, endorsed by, or sponsored by Speediance.
 
@@ -14,19 +14,24 @@ Depending on the features you use, Monster Remote may process:
 - **Training information:** Workout history and summaries such as exercise names or identifiers, sets, repetitions, resistance, volume, duration, distance, muscle load, and related machine measurements.
 - **Optional Apple Health context:** Only categories you explicitly authorize, such as sleep duration, resting heart rate, heart-rate variability, and workout heart-rate context. You can change Health access at any time in iOS Settings or the Health app.
 - **Machine and app information:** Machine identifiers or serial numbers, firmware and app versions, platform, first and last seen timestamps, connection state, trial status, and premium entitlement status.
+- **Training Buddies information:** Your friend code, optional display name and avatar URL, buddy relationships and requests, sharing preference, live training state, current exercise or workout title, training start time, cheers, and related delivery events. Live activity is shared only when you enable buddy sharing and only with accepted buddies.
+- **Push notification information:** An Apple Push Notification service device token and notification environment used to deliver buddy requests, confirmations, and cheers. The token identifies an app installation, not your Apple password or payment details.
 - **AI Coach input:** Questions or workout requests you submit, together with the minimum relevant training and optional Health context needed to answer them.
 - **Subscription information:** App Store product identifier, transaction identifier, subscription status, and expiration information. Apple handles payment details; Monster Remote does not receive your payment card number.
-- **Alexa linking information:** Push notification tokens, temporary linking codes, and the Alexa account identifier used to route commands.
+- **Alexa linking information:** Temporary linking codes and the Alexa account identifier used to route commands.
 - **Diagnostics:** Logs and diagnostic reports when you choose to share them for support.
+- **Optional unsupported-firmware archive:** If your Gym Monster runs an unsupported firmware and no archive is already available, the app may offer an explicit upload action. When you choose it, the Helper packages the installed firmware application, encrypts it before upload, and sends the encrypted archive plus firmware version, build fingerprint, size, and integrity hashes to private Cloudflare storage. A server-side reservation prevents routine duplicate uploads. This archive is used only to build Monster Remote compatibility support.
 
 ## How We Use Information
 
 We use this information to:
 
-- provide Progress analytics, training history sync, MCP access, AI Coach responses, and workout drafts;
+- provide Progress analytics, training history sync, MCP access, AI Coach responses, workout drafts, and Training Buddies;
 - keep your private Monster Remote account and subscription available across your Apple devices;
 - verify App Store subscriptions and enforce fair-use limits;
 - connect the app to a supported Gym Monster and route Alexa commands;
+- deliver buddy requests, confirmations and cheers, and share live training status with accepted buddies when you enable sharing;
+- analyze an encrypted unsupported-firmware archive when you explicitly choose to help add compatibility;
 - prevent abuse, improve reliability, and troubleshoot problems.
 
 Progress analytics remain available as deterministic, rule-based analysis and do not require an AI request. AI Coach data is sent only when you explicitly submit a question or workout request.
@@ -47,24 +52,26 @@ An external MCP-compatible AI client that you choose to connect is governed by t
 
 ## Data Storage and Retention
 
-Cloud-synced training summaries and related account records are generally retained for up to 1,095 days while the service is in use, unless a longer period is legally required. Short-lived linking codes and authentication nonces expire automatically. Operational and entitlement records may be kept as needed for security, billing verification, fraud prevention, and legal compliance.
+Cloud-synced training summaries and related account records are generally retained for up to 1,095 days while the service is in use, unless a longer period is legally required. Buddy relationships, sharing settings, device tokens and buddy events are retained while needed to provide the feature and are deleted with the cloud account, subject to short operational retention required for security and reliable delivery. Short-lived linking codes, upload reservations and authentication nonces expire automatically. Operational and entitlement records may be kept as needed for security, billing verification, fraud prevention, and legal compliance. Encrypted unsupported-firmware archives may be retained for ongoing compatibility research and are not used for advertising or user profiling.
 
-On-device information, including the MCP access key in the iOS Keychain, remains until you remove the app data or use the relevant iOS controls. You can permanently delete your Monster Remote cloud account and its linked data inside Training Intelligence settings. You may also contact us for help with deletion.
+On-device information, including the MCP access key in the iOS Keychain, remains until you remove the app data or use the relevant iOS controls. You can permanently delete your Monster Remote cloud account and its linked data inside the app's private-account settings. You may also contact us for help with deletion.
 
 ## Data Sharing
 
 We do not sell personal information. Limited information is shared only with processors needed to provide the selected features, including:
 
 - Apple for Sign in with Apple, Health permissions, speech recognition, push notifications, and App Store purchases;
-- Cloudflare for hosting, database, networking, and security;
+- Cloudflare for hosting, database, private object storage, networking, and security;
 - OpenAI when you submit an AI Coach request;
 - Amazon when you choose to use the Alexa skill.
+
+Accepted Training Buddies receive only the live training information you choose to share, such as that you are training, the current exercise or workout title, and the start time. They do not receive your complete training history, Apple Health information, AI Coach conversations, account email, subscription information, or machine credentials through the buddy feature.
 
 We may disclose information when required by law or when necessary to protect users, the service, or our legal rights.
 
 ## Your Choices
 
-You can use core local and rule-based features without enabling Apple Health, AI Coach, Alexa, or an external MCP client. You can revoke Health permissions, stop using speech input or spoken answers, disconnect external clients, and delete your cloud account in the app.
+You can use core local and rule-based features without enabling Apple Health, AI Coach, Training Buddies, Alexa, firmware upload, or an external MCP client. You can revoke Health and notification permissions, stop using speech input or spoken answers, disable buddy sharing, remove or decline buddy relationships, disconnect external clients, and delete your cloud account in the app.
 
 ## Security
 
