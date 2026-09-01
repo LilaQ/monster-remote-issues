@@ -1,6 +1,6 @@
 # Privacy Policy for Monster Remote
 
-Effective date: 2026-09-01
+Effective date: 2026-08-15
 
 Monster Remote is an unofficial companion app and Alexa skill for supported Gym Monster machines. Monster Remote is not affiliated with, endorsed by, or sponsored by Speediance.
 
@@ -14,11 +14,11 @@ Depending on the features you use, Monster Remote may process:
 - **Training information:** Workout history and summaries such as exercise names or identifiers, sets, repetitions, resistance, volume, duration, distance, muscle load, and related machine measurements.
 - **Optional Apple Health context:** Only categories you explicitly authorize, such as sleep duration, resting heart rate, heart-rate variability, and workout heart-rate context. You can change Health access at any time in iOS Settings or the Health app.
 - **Optional Android Health Connect context:** Only categories you explicitly authorize, currently sleep duration, resting heart rate, heart-rate variability, body weight, and bounded trends/baselines derived from them. You can revoke access at any time in Health Connect or Android Settings. Core local controls do not require Health Connect.
-- **Machine and app information:** Machine identifiers or serial numbers, firmware and app versions, platform, first and last seen timestamps, connection state, compatibility status, and Helper pairing state.
+- **Machine and app information:** Machine identifiers or serial numbers, firmware and app versions, platform, first and last seen timestamps, connection state, trial status, and premium entitlement status.
 - **Training Buddies information:** Your friend code, optional display name and avatar URL, buddy relationships and requests, sharing preference, live training state, current exercise or workout title, training start time, cheers, and related delivery events. Live activity is shared only when you enable buddy sharing and only with accepted buddies.
 - **Push notification information:** An Apple Push Notification service device token and notification environment used to deliver buddy requests, confirmations, and cheers. The token identifies an app installation, not your Apple password or payment details.
 - **AI Coach input:** Questions or workout requests you submit, together with the minimum relevant training and optional Health context needed to answer them.
-- **Subscription information:** When the optional iOS AI Coach subscription is used, App Store product and transaction identifiers, subscription status, and expiration information. Apple handles payment details; Monster Remote does not receive your payment card number. The current Android app is sold as a paid Google Play download and contains no in-app purchase or subscription flow.
+- **Subscription information:** App Store or Google Play product identifier, transaction/order or purchase-token-derived identifier, subscription status, acknowledgement, and expiration information. Apple and Google handle payment details; Monster Remote does not receive your payment card number. A Google Play purchase token needed for server revalidation is stored encrypted, not in plaintext.
 - **Alexa linking information:** Temporary linking codes and the Alexa account identifier used to route commands.
 - **Diagnostics:** Logs and diagnostic reports when you choose to share them for support.
 - **Optional unsupported-firmware archive:** If your Gym Monster runs an unsupported firmware and no archive is already available, the app may offer an explicit upload action. When you choose it, the Helper packages the installed firmware application, encrypts it before upload, and sends the encrypted archive plus firmware version, build fingerprint, size, and integrity hashes to private Cloudflare storage. A server-side reservation prevents routine duplicate uploads. This archive is used only to build Monster Remote compatibility support.
@@ -28,8 +28,8 @@ Depending on the features you use, Monster Remote may process:
 We use this information to:
 
 - provide Progress analytics, training history sync, MCP access, AI Coach responses, workout drafts, and Training Buddies;
-- keep your private Monster Remote account and optional iOS subscription available across your signed-in devices;
-- verify optional App Store subscriptions and enforce fair-use limits;
+- keep your private Monster Remote account and subscription available across your signed-in devices;
+- verify App Store or Google Play subscriptions and enforce fair-use limits;
 - connect the app to a supported Gym Monster and route Alexa commands;
 - deliver buddy requests, confirmations and cheers, and share live training status with accepted buddies when you enable sharing;
 - analyze an encrypted unsupported-firmware archive when you explicitly choose to help add compatibility;
@@ -62,7 +62,7 @@ On-device information, including an MCP access key in the iOS Keychain or Androi
 We do not sell personal information. Limited information is shared only with processors needed to provide the selected features, including:
 
 - Apple for Sign in with Apple, Health permissions, speech recognition, push notifications, and App Store purchases;
-- Google for Google account sign-in, Health Connect permissions/data access on the device, and paid Android app distribution;
+- Google for Google account sign-in, Health Connect permissions/data access on the device, and Google Play purchases;
 - Cloudflare for hosting, database, private object storage, networking, and security;
 - OpenAI when you submit an AI Coach request;
 - Amazon when you choose to use the Alexa skill.
