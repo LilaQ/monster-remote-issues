@@ -1,10 +1,10 @@
 # Privacy Policy for Monster Remote
 
-Effective date: 2026-08-15
+Effective date: 2026-09-05
 
 Monster Remote is an unofficial companion app and Alexa skill for supported Gym Monster machines. Monster Remote is not affiliated with, endorsed by, or sponsored by Speediance.
 
-This policy explains which information Monster Remote processes, why it is used, and the choices available to you. Features that use cloud sync, Apple Health or Android Health Connect, AI, Alexa, or speech recognition are optional.
+This policy explains which information Monster Remote processes, why it is used, and the choices available to you. Features that use cloud sync, Apple Health, AI, Alexa, or speech recognition are optional. The current Android release does not request or access Health Connect data.
 
 ## Information We Process
 
@@ -13,7 +13,7 @@ Depending on the features you use, Monster Remote may process:
 - **Account information:** A private Sign in with Apple or Google account identifier and, when available, a display name. Monster Remote never receives your Apple or Google password. Stable provider account identifiers are retained only as one-way hashes. Apple email/private-relay values and Google email values are not stored by Monster Remote Intelligence, and accounts are not merged by email.
 - **Training information:** Workout history and summaries such as exercise names or identifiers, sets, repetitions, resistance, volume, duration, distance, muscle load, and related machine measurements.
 - **Optional Apple Health context:** Only categories you explicitly authorize, such as sleep duration, resting heart rate, heart-rate variability, and workout heart-rate context. You can change Health access at any time in iOS Settings or the Health app.
-- **Optional Android Health Connect context:** Only categories you explicitly authorize, currently sleep duration, resting heart rate, heart-rate variability, body weight, and bounded trends/baselines derived from them. You can revoke access at any time in Health Connect or Android Settings. Core local controls do not require Health Connect.
+- **Android Health Connect:** The current Android release does not request Health Connect permissions or read Health Connect data. If this feature is introduced in a later release, this policy and the in-app disclosure will be updated before access is requested.
 - **Machine and app information:** Machine identifiers or serial numbers, firmware and app versions, platform, first and last seen timestamps, connection state, trial status, and premium entitlement status.
 - **Training Buddies information:** Your friend code, optional display name and avatar URL, buddy relationships and requests, sharing preference, live training state, current exercise or workout title, training start time, cheers, and related delivery events. Live activity is shared only when you enable buddy sharing and only with accepted buddies.
 - **Push notification information:** An Apple Push Notification service device token and notification environment used to deliver buddy requests, confirmations, and cheers. The token identifies an app installation, not your Apple password or payment details.
@@ -62,7 +62,7 @@ On-device information, including an MCP access key in the iOS Keychain or Androi
 We do not sell personal information. Limited information is shared only with processors needed to provide the selected features, including:
 
 - Apple for Sign in with Apple, Health permissions, speech recognition, push notifications, and App Store purchases;
-- Google for Google account sign-in, Health Connect permissions/data access on the device, and Google Play purchases;
+- Google for Google account sign-in and Google Play purchases;
 - Cloudflare for hosting, database, private object storage, networking, and security;
 - OpenAI when you submit an AI Coach request;
 - Amazon when you choose to use the Alexa skill.
@@ -73,7 +73,7 @@ We may disclose information when required by law or when necessary to protect us
 
 ## Your Choices
 
-You can use core local and rule-based features without enabling Apple Health, Android Health Connect, AI Coach, Training Buddies, Alexa, firmware upload, or an external MCP client. You can revoke Health and notification permissions, stop using speech input, disable buddy sharing, remove or decline buddy relationships, disconnect external clients, and delete your cloud account in the app.
+You can use core local and rule-based features without enabling Apple Health, AI Coach, Training Buddies, Alexa, firmware upload, or an external MCP client. You can revoke Apple Health and notification permissions, stop using speech input, disable buddy sharing, remove or decline buddy relationships, disconnect external clients, and delete your cloud account in the app. The current Android release does not request Health Connect access.
 
 ## Security
 
