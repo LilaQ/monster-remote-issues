@@ -1,6 +1,6 @@
 # Privacy Policy for Monster Remote
 
-Effective date: 2026-09-05
+Effective date: 2026-10-25
 
 Monster Remote is an unofficial companion app and Alexa skill for supported Gym Monster machines. Monster Remote is not affiliated with, endorsed by, or sponsored by Speediance.
 
@@ -39,7 +39,7 @@ Progress analytics remain available as deterministic, rule-based analysis and do
 
 ## Speech Input and Spoken Answers
 
-If you use dictation or voice commands, recognition is provided through Apple's Speech framework on iOS or the selected on-device Android recognizer. Monster Remote does not store raw microphone recordings. Recognized text entered into the AI Coach is sent to the AI service only after you submit it. Local Live Coach analysis and cue display run on the Gym Monster Helper and do not send a microphone stream to the cloud.
+If you use dictation or voice commands, recognition is provided through Apple's Speech framework on iOS or the selected Android speech engine. Android can use offline Vosk recognition or a system speech provider; a system provider may process audio online under its own privacy terms. Monster Remote does not store raw microphone recordings. Recognized text entered into the AI Coach is sent to the AI service only after you submit it. Local Live Coach has been removed from the current app and Helper versions.
 
 For Alexa, Amazon handles the raw recording and speech recognition under Amazon's privacy terms. Monster Remote receives only the resulting command and any applicable amount.
 
@@ -63,6 +63,7 @@ We do not sell personal information. Limited information is shared only with pro
 
 - Apple for Sign in with Apple, Health permissions, speech recognition, push notifications, and App Store purchases;
 - Google for Google account sign-in and Google Play purchases;
+- the selected system speech provider under its own terms;
 - Cloudflare for hosting, database, private object storage, networking, and security;
 - OpenAI when you submit an AI Coach request;
 - Amazon when you choose to use the Alexa skill.
